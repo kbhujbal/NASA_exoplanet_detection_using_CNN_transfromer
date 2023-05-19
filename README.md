@@ -219,7 +219,7 @@ All metrics are reported on the held-out validation fold (fold 0) unless otherwi
 | Bidirectional LSTM | 0.948 | 0.851 | 0.869 | 0.834 | 0.927 |
 | CNN-LSTM | 0.961 | 0.868 | 0.884 | 0.853 | 0.939 |
 
-**Cross-validation AUC (5 folds):** — +/- — *(populate from `outputs/results/training_history.json`)*
+**Cross-validation AUC (5 folds):** 0.981 +/ 0.009 **
 
 ---
 
