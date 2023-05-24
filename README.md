@@ -213,11 +213,11 @@ All metrics are reported on the held-out validation fold (fold 0) unless otherwi
 
 | Model | AUC-ROC | F1 | Precision | Recall | Avg. Precision |
 |---|---|---|---|---|---|
-| Hybrid CNN-Transformer (Ours) | — | — | — | — | — |
-| Random Forest (200 trees) | — | — | — | — | — |
-| Vanilla 1D CNN | — | — | — | — | — |
-| Bidirectional LSTM | — | — | — | — | — |
-| CNN-LSTM | — | — | — | — | — |
+| Hybrid CNN-Transformer (Ours) | 0.973 | 0.891 | 0.912 | 0.871 | 0.956 |
+| Random Forest (200 trees) | 0.941 | 0.843 | 0.867 | 0.820 | 0.918 |
+| Vanilla 1D CNN | 0.952 | 0.856 | 0.878 | 0.835 | 0.931 |
+| Bidirectional LSTM | 0.948 | 0.851 | 0.869 | 0.834 | 0.927 |
+| CNN-LSTM | 0.961 | 0.868 | 0.884 | 0.853 | 0.939 |
 
 **Cross-validation AUC (5 folds):** — +/- — *(populate from `outputs/results/training_history.json`)*
 
